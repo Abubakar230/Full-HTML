@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>My website</title>
+</head>
+<body>
+
+
+           <!--   React learning code
+
+                https://react.dev/learn     -->
+
+
+
+
+
+
+
+    <!-- this is heading -->
+    <h1 class="a" id="top">Abubakar</h1>
+    <!-- this is paragraph       blockquote       quotation       cite(italic defination name)      and use span -->
+    <p><blockquote><span class="b">I'm student of <q>IT</q>.I live in lahore.i am studied in <cite>civilian college</cite> lahore.i had take second year in punjab college.my name is Muhammad Abubakar.my father name is shahzad ahmad.i am from lahore . i take admission in government islamia college civilian lahore. i am student of bsit of second smester .</span></blockquote></p>
+    <!-- Bold -->
+    <b>Abubakar</b>
+    <strong>Abubakar</strong>
+    <!-- Italic -->
+    <i>Abubakar</i>
+    <em>Abubakar</em>
+    <!-- this is use fo abbreviation -->
+    <abbr title="Abu Bakar">AB</abbr>
+    <!-- This is used Delete and insert(underline) -->
+    <p>I am <del>Teacher</del><ins>Student</ins></p>
+    <!-- this is used to remove old price and add new one -->
+    <p>Book is <br><s>99$</s> <br>40$.</p>
+    <!-- gamil links -->
+    <a href="mailto:mabubakar23000@gmail.com">Gmail</a>
+    <!-- ordered list   1 2  -->
+    <ol>
+        <li>Name</li>
+        <li>Class</li>
+    </ol>
+    <!-- unordered lists   .  .   Youtube and google Links   -->
+    <ul>
+        <li> <a href="https://www.youtube.com"target="_blank">Youtube</a></li>
+        <li><a href="http://www.google.com"target="_blank">Google</a></li>
+    </ul>
+    <!-- nested ordered list     superscript-->
+    <div class="c">
+    <ul>
+        <li>Name</li>
+        <li>Class</li>
+        <ul>
+            <li>BSIT</li>
+            <li>2 <sup>nd</sup>Smester</li>
+        </ul>
+    </ul></div>
+    <!-- nested unordered list -->
+    <ol>
+        <li>Name</li>
+        <li>Class</li>
+        <ol>
+            <li>BSIT</li>
+            <li>2nd Smester</li>
+        </ol>
+    </ol>
+    <!-- defination in italic -->
+    <dfn>
+        <dt>Intro</dt>
+        <dd>My name is Muhammad Abubakar</dd>
+    </dfn>
+    <dl>
+    <!-- defination  -->
+        <dt>Intro</dt>
+        <dd>My name id Muhammad Abubakar</dd>
+    </dl>
+   <!-- subscript -->
+    <p>H<sub>2</sub>O</p>
+    <!-- superscript -->
+    <p>a<sup>2</sup></p>
+    <!-- image            link Image           figure caption -->
+    <figure>
+        <img src="./ITT.webp"width="400" height="220" title="This is picture">
+    <a href="http://www.google.com"target="_blank"><img width="400" height="220" src="./ITT.webp" alt="picture" title="Picture"></a>
+    <figcaption>This picture include the information about this</figcaption>
+    </figure>
+    <!-- Table -->
+    <table border="2px" bgcolor="silver" cellspacing="5px" cellpadding="10px">
+        <tr>
+            <th></th>
+            <th>Name</th>
+            <th>Class</th>
+            <th bgcolor="orange">Section</th>
+            <th>Roll no.</th>
+            <th>Class roll no.</th>
+        </tr>
+        <tr>
+            <th>student 1:</th>
+            <!-- merge rows -->
+            <td rowspan="2" bgcolor="white">Abubakar</td>
+            <td>BSIT</td>
+            <td>G-2</td>
+            <td>2152</td>
+            <td>2152</td>
+        </tr>
+        <tr>
+            <th>student 1:</th>
+            <td>BSIT</td>
+            <td>G-2</td>
+            <td>2152</td>
+            <td>2152</td>
+        </tr>
+        <tr>
+            <th>student 1:</th>
+            <td>Abubakar</td>
+            <td>BSIT</td>
+            <td>G-2</td>
+            <!-- merge coloum -->
+            <td colspan="2">2152</td>
+        </tr>
+        <tr>
+            <th>student 1:</th>
+            <td>Abubakar</td>
+            <td>BSIT</td>
+            <td>G-2</td>
+            <td>2152</td>
+            <td>2152</td>
+        </tr>
+        <tr>
+            <th>student 1:</th>
+            <td>Abubakar</td>
+            <td>BSIT</td>
+            <td>G-2</td>
+            <td>2152</td>
+            <td>2152</td>
+        </tr>
+        <tr>
+            <th>student 1:</th>
+            <td>Abubakar</td>
+            <td>BSIT</td>
+            <td>G-2</td>
+            <td>2152</td>
+            <td>2152</td>
+        </tr>
+    </table>
+    <!-- login page -->
+    <form>
+       <fieldset>
+            <legend>Login info</legend>
+            <label for="fn">First Name:</label><br>
+            <input type="text" name="fn" placeholder="Enter your first Name"><br>
+            <label for="ln">Last Name</label><br>
+            <input type="text" name="ln" placeholder="Enter your last Name" ><br>
+            <label for="ps">password</label><br>
+            <input type="password" name="ps" placeholder="Enter 6-digit Password" maxlength="6" minlength="3" required><br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </fieldset>
+        <!-- gender -->
+        <fieldset>
+            <legend>Gender</legend>
+            <label for="Gender">Male</label>
+            <input type="radio" name="Gender" value="Male">
+            <label for="Gender">Female</label>
+            <input type="radio" name="Gender" value="Female" id="" >
+        </fieldset>
+        <input type="checkbox">Check the policy
+        <!-- comments -->
+        <textarea name="comment" id="" cols="30" rows="5">Enter your comments</textarea>
+        <!-- file -->
+        <input type="file" name="user song" id="">
+        <!-- subscribe to email list -->
+        <p>subscribe to email list</p>
+        <input type="text" name="" id="">
+        <input type="submit" value="Subscribe" name="Subscribe"><br>
+        <!-- add button photo -->
+        <button><img src="./ITT.webp" alt="add"
+            width="10" height="10" /> Add</button>
+            
+
+    </form>
+
+    <!-- video     audio -->
+    <video src="./" poster="./ITT.webp" autoplay controls loop></video>
+    <audio src="./" muted autoplay controls loop></audio>    
+    <!-- Selected options -->
+    <select name="" id="">
+        <option value="Pakistan">Pakistan</option>
+        <option value="China">China</option>
+        <option value="England">England</option>
+        <option value="UAE" selected>UAE</option>
+        <option value="USA">USA</option>
+        <option value="South America">South America</option>
+        <option value="South Africa">South Africa</option>
+        <option value="North America">North America</option>
+        <option value="North Africa">North Africa</option>
+        <option value="Japan">Japan</option>
+        <option value="Canida">Canida</option>
+        <option value="Australia">Australia</option>
+        <option value="Germeny">Germeny</option>
+        <option value="Saudi Arabia">Saudi Arabia</option>
+        <option value="Itely">Itely</option>
+        <option value="France">France</option>
+        <option value="Singapor">Singapor</option>
+        <option value="Turkey">Turkey</option>
+        <option value="Sirilanka">Sirilanka</option>
+        <option value="Afganistan">Afganistan</option>
+    </select>
+
+
+<!-- 
+    calculate the js with dom
+ -->
+ <h1>Percentage Calculator</h1>
+  <form onsubmit="percentpoint();return false;">
+    <label for="number">Enter number</label>
+    <input type="number" name="number" id="n1">
+    <label for="per">Enter percentage you find of this number</label>
+    <input type="number" name="per" id="p1">
+    <button type="submit">Calcuate percentage</button>
+  </form>
+<h1 id="res1">percentage is</h1>
+
+
+    <!-- copyright html -->
+    <center><footer>&copy;p2pcloud</footer></center>
+    <!-- this link is used to go at the top page -->
+    <a href="#top">Top</a>
+    <!-- Link with Java Script -->
+
+    <script src="./index.js"></script>
+</body>
+</html>

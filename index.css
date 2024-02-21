@@ -1,0 +1,13 @@
+.a:hover{
+    background-color: blue;
+    color: turquoise;
+    font-size: 60pt;
+}
+.b{
+    background-color: aqua;
+    color: blue;
+    
+}
+.c{
+    background-color: aqua;
+}
